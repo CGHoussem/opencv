@@ -8,7 +8,6 @@ pancake = img[518:559, 179:255]
 
 img[0:41, 0:76] = pancake
 
-
 cv2.imshow('image', img)
 
 cv2.waitKey(0)
