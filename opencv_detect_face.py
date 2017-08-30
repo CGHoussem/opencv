@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 
 cap = cv2.VideoCapture(0)
-
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 while True:
@@ -13,7 +12,7 @@ while True:
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
-    print(len(faces))
+
     for (x, y, w, h) in faces:
         color = cv2.rectangle(color, (x, y), (x + w, y + h), (0, 0, 255), 2)
 

@@ -1,4 +1,4 @@
-"""import cv2
+import cv2
 import numpy as np
 
 cap = cv2.VideoCapture(0)
@@ -18,10 +18,10 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
-"""
+
 
 "Exercice from opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html#exercises"
-import cv2
+"""import cv2
 import numpy as np
 
 cap = cv2.VideoCapture(0)
@@ -43,4 +43,4 @@ while True:
 		break
 
 cap.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows()"""
